@@ -1,0 +1,31 @@
+.tab-button{
+  display: flex;  
+  gap: 20px;
+  padding: 10px;
+}
+
+.tab{
+    border: none;
+    background: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'sans-serif';
+    font-weight: 500;
+}
+
+.tab.active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.tab-content{
+    display: none;
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.tab-content.active{
+    display: block;
+}
